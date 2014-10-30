@@ -1,0 +1,80 @@
+/*body{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+b{
+	color: #fff;
+	font-family: Andika;
+	font-size: 36pt;
+	text-shadow: 1px 0px #000;
+
+}
+.top_bg{
+	background: #000;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	height: 70px;
+	width: 100%;
+}
+*/
+.borderme{
+	border: 1px solid black;
+	padding:10px;
+}
+ .homefont{
+ 	font-family: Andika;
+ 	font-size: 36pt;
+ 	text-shadow:1px 0px #000;
+ 	color:white;
+
+ }
+  .homefont1{
+ 	font-family: Andika;
+ 	font-size: 25pt;
+ 	text-shadow:1px 0px #000;
+ 	color:white;
+
+ }
+
+.content_bg{
+	/*margin-top: 0px;*/
+	/*margin: auto;*/
+	background-image: url(../img/abc.jpg);
+	height: 600px;
+/*	width: 90%;
+*/}
+/*.content_lc{
+	padding-top: 250px;
+	text-align: center;
+}
+.pos_1{
+	position: absolute;
+	left:40px;
+	top: 0px;
+}
+.pos_2{
+	position: absolute;
+	left:20%;
+	top: 25px;
+}
+.pos_3{
+	position: absolute;
+	left:30%;
+	top: 25px;
+}
+.pos_4{
+	position: absolute;
+	left:90%;
+	top: 25px;
+}
+.button_content{
+	float: left;
+}
+.button_content1{
+	margin-left:40%;
+}
+*/

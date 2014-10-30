@@ -1,0 +1,17 @@
+{
+    "name": "node-eatz",
+    "description": "Node-Eatz Application",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "3.4.8",
+        "mongoose": "3.8.6",
+        "gm":"1.14.2",
+        "ejs":"",
+        "fs":""
+    },
+    "engines": {
+        "node": "0.8.4",
+        "npm": "1.1.49"
+    }
+}

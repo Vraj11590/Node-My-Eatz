@@ -1,0 +1,81 @@
+<div>
+<div class="row-fluid">
+<div class="span8" id="dish_create">
+    <form name="addDishForm" class="form-horizontal borderme">
+      <fieldset id="dishInfo" class="borderme">
+      <legend>Create a dish</legend>
+      <br/>
+          <div class="control-group" id=".name">
+              <label class="control-label" for="name">Name</label>
+              <div class="controls">
+                  <input type="text" id="name" placeholder="<%=name%>"><br/>
+              </div>
+          </div>
+
+          <div class="control-group">
+              <label class="control-label" for="served">Served By</label>
+              <div class="controls">
+                <input type="text" id="served" placeholder="<%=info%>"><br/>
+              </div>
+          </div>
+
+          <div class="control-group">
+              <label class="control-label" for="dish_Info">Dish Venue Info</label>
+              <div class="controls">
+                <input type="text" id="dish_Info" placeholder="<%=venue%>"><br/>
+              </div>
+          </div>
+
+          <div class="control-group">
+              <label class="control-label" for="url">Website URL</label>
+              <div class="controls">
+                  <input type="text" id = "url" placeholder="<%=url%>"><br/>
+              </div>
+          </div>
+
+          <div class="control-group">
+              <label class="control-label" for="numbr">Street Address</label>
+              <div class="controls">
+                  <input type="text" class="input-mini" id = "numbr" placeholder="<%=numbr%>">
+                  <input type="text" id = "street" placeholder="<%=street%>">
+                  <input type="text" id = "city" placeholder="<%=city%>">
+              </div>
+          </div>
+
+          <div class="control-group pull-right">
+              <div class="controls">
+                  <button type="submit" id= "create" class="btn btn-primary">Save Dish</button>
+                  <button type="submit" id="cancel" class="btn btn-danger">Cancel</button>
+              </div>
+          </div>
+
+
+      </fieldset>
+    </form>
+</div>
+
+
+<div class=" borderme span4" id="dish_image">
+    <legend>Upload a dish image</legend>
+    <ul class="thumbnails">
+        <li class="span4">
+            <a href="#" class="thumbnail">
+                <img data-src="holder.js/300x400" alt="">
+            </a>
+        </li>
+    </ul>
+    <div class="pull-left">
+        <p> Drag and Drop </p>
+    </div>
+    <div class="control-group pull-right">
+        <div class = "controls">
+            <button type="submit" id= "take_Pic" class="btn btn-primary">Take a Picture</button>
+            <button type="submit" id= "choose_Pic" class="btn btn-primary">Choose a Picture</button>
+        </div>
+    </div>
+
+</div>
+
+</div>
+
+</div>
